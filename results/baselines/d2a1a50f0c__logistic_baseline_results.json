@@ -1,0 +1,129 @@
+{
+  "method": "multiclass_logistic_regression_forced_closed_set",
+  "input": "five-dimensional detector-bank response vector",
+  "training_matrix": "Downloads\\validation_response_matrix.xls",
+  "test_matrix": "Downloads\\test_response_matrix.xls",
+  "feature_columns": [
+    "p_WOW",
+    "p_S-UNIWARD",
+    "p_HILL",
+    "p_HUGO",
+    "p_MiPOD"
+  ],
+  "label_column": "true_algo",
+  "split_policy": "train on archived validation_response_matrix; test on archived held-out test_response_matrix",
+  "preprocessing": "StandardScaler fitted on validation response vectors only",
+  "model": "sklearn.linear_model.LogisticRegression",
+  "solver": "lbfgs",
+  "penalty": "l2",
+  "C": 1.0,
+  "class_weight": "balanced",
+  "max_iter": 5000,
+  "random_state": 42,
+  "hyperparameter_search": "none; fixed reproducibility configuration",
+  "tie_breaking": "deterministic scikit-learn class order",
+  "contains_new_image_inference": false,
+  "contains_new_detector_training": false,
+  "recomputed_from_saved_response_matrices": true,
+  "n_train": 7500,
+  "n_test": 7500,
+  "classes": [
+    "HILL",
+    "HUGO",
+    "MiPOD",
+    "S-UNIWARD",
+    "WOW"
+  ],
+  "top1_accuracy": 0.4692,
+  "top2_accuracy": 0.696,
+  "top3_accuracy": 0.8434666666666667,
+  "classification_report": {
+    "HILL": {
+      "precision": 0.48761742100768574,
+      "recall": 0.38066666666666665,
+      "f1-score": 0.4275552227630101,
+      "support": 1500.0
+    },
+    "HUGO": {
+      "precision": 0.5780806360022714,
+      "recall": 0.6786666666666666,
+      "f1-score": 0.6243483593989574,
+      "support": 1500.0
+    },
+    "MiPOD": {
+      "precision": 0.4076335877862595,
+      "recall": 0.178,
+      "f1-score": 0.24779582366589328,
+      "support": 1500.0
+    },
+    "S-UNIWARD": {
+      "precision": 0.38929279576999337,
+      "recall": 0.39266666666666666,
+      "f1-score": 0.39097245270494524,
+      "support": 1500.0
+    },
+    "WOW": {
+      "precision": 0.4475,
+      "recall": 0.716,
+      "f1-score": 0.5507692307692308,
+      "support": 1500.0
+    },
+    "accuracy": 0.4692,
+    "macro avg": {
+      "precision": 0.46202488811324205,
+      "recall": 0.4692,
+      "f1-score": 0.4482882178604074,
+      "support": 7500.0
+    },
+    "weighted avg": {
+      "precision": 0.462024888113242,
+      "recall": 0.4692,
+      "f1-score": 0.44828821786040735,
+      "support": 7500.0
+    }
+  },
+  "confusion_matrix_labels": [
+    "HILL",
+    "HUGO",
+    "MiPOD",
+    "S-UNIWARD",
+    "WOW"
+  ],
+  "confusion_matrix": [
+    [
+      571,
+      202,
+      150,
+      215,
+      362
+    ],
+    [
+      29,
+      1018,
+      78,
+      205,
+      170
+    ],
+    [
+      376,
+      249,
+      267,
+      254,
+      354
+    ],
+    [
+      152,
+      230,
+      89,
+      589,
+      440
+    ],
+    [
+      43,
+      62,
+      71,
+      250,
+      1074
+    ]
+  ]
+}

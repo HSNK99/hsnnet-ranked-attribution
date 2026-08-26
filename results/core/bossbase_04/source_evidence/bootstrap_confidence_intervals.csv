@@ -1,0 +1,5 @@
+Metric,Value,95% Bootstrap CI
+Top-1,42.81%,41.72% – 43.95%
+Top-3,82.28%,81.41% – 83.16%
+Mean true rank,2.157,2.128 – 2.185
+Mean candidate size,3.429,3.398 – 3.458

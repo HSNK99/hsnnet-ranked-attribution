@@ -1,0 +1,44 @@
+{
+  "dataset": "BOWS2",
+  "evaluation": "frozen external",
+  "payload": "0.4 bpp",
+  "candidate_universe": [
+    "WOW",
+    "S-UNIWARD",
+    "HILL",
+    "HUGO",
+    "MiPOD"
+  ],
+  "gamma": 0.9,
+  "source_file_name": "external_candidate_predictions.csv",
+  "source_file_sha256": "b6735e976bf9db4d60bf2948b7a8a76ef1a0f23ae4b638af5fa2d6b235100a5d",
+  "counts": {
+    "total": 60000,
+    "stego": 50000,
+    "cover": 10000,
+    "retained_stego": 45631,
+    "unknown_stego": 847,
+    "nonempty_stego": 49153,
+    "false_exclusion_nonempty": 3522,
+    "cover_rejected": 2734
+  },
+  "ranking_metrics_percent": {
+    "top1": 35.465999999999994,
+    "top2": 59.260000000000005,
+    "top3": 77.50200000000001,
+    "mean_true_rank": 2.36632
+  },
+  "candidate_metrics": {
+    "retention_percent": 91.262,
+    "mean_set_size": 3.75866,
+    "unknown_percent": 1.694,
+    "decision_coverage_percent": 98.30600000000001,
+    "conditional_false_exclusion_percent": 7.16538156368889,
+    "search_reduction_percent": 24.826800000000002
+  },
+  "cover_metrics": {
+    "cover_rejection_percent": 27.339999999999996,
+    "cover_false_attribution_percent": 72.66
+  },
+  "verification_status": "PASS"
+}

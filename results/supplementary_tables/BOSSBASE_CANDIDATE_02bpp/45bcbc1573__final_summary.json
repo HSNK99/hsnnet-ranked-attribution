@@ -1,0 +1,54 @@
+{
+  "num_total": 9000,
+  "num_stego": 7500,
+  "num_cover": 1500,
+  "ranked_top1_accuracy": 0.30106666666666665,
+  "ranked_top2_accuracy": 0.5361333333333334,
+  "ranked_top3_accuracy": 0.7258666666666667,
+  "decision_top1_accuracy": 0.24053333333333332,
+  "candidate_set_accuracy": 0.7701333333333333,
+  "stego_unknown_rate": 0.16333333333333333,
+  "stego_single_candidate_rate": 0.03693333333333333,
+  "stego_multi_candidate_rate": 0.7997333333333333,
+  "stego_mean_candidate_size": 3.4444,
+  "mean_true_rank": 2.5484,
+  "cover_unknown_rate": 0.202,
+  "cover_false_attribution_rate": 0.798,
+  "cover_mean_candidate_size": 3.0973333333333333,
+  "method": "cross_template_response_signature_candidate_attribution",
+  "dataset": "BOSSBase 1.01",
+  "payload": "0.2bpp",
+  "q_low": 10,
+  "q_high": 90,
+  "gamma": 0.9,
+  "candidate_universe": [
+    "WOW",
+    "S-UNIWARD",
+    "HILL",
+    "HUGO",
+    "MiPOD"
+  ],
+  "tta_count": 8,
+  "bootstrap_95ci": {
+    "ranked_top1": {
+      "low": 0.29066333333333333,
+      "high": 0.31173666666666666
+    },
+    "ranked_top3": {
+      "low": 0.7162666666666667,
+      "high": 0.7358666666666667
+    },
+    "candidate_retention": {
+      "low": 0.7604,
+      "high": 0.7797333333333333
+    },
+    "mean_true_rank": {
+      "low": 2.517063333333333,
+      "high": 2.5778766666666666
+    },
+    "mean_candidate_size": {
+      "low": 3.39919,
+      "high": 3.4860033333333336
+    }
+  }
+}

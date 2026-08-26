@@ -1,0 +1,51 @@
+{
+  "dataset": "BOWS2",
+  "payload_bpp": 0.4,
+  "diagnostic_scope": "Archived decision-layer risk-coverage and gamma-sweep diagnostics",
+  "gamma_grid": {
+    "minimum": 0.0,
+    "maximum": 1.0,
+    "increment": 0.005,
+    "points": 201
+  },
+  "locked_gamma": 0.9,
+  "locked_operating_point": {
+    "retention_percent": 91.262,
+    "mean_set_size": 3.75866,
+    "search_reduction_percent": 24.8268,
+    "empty_percent": 1.694,
+    "decision_coverage_percent": 98.306,
+    "conditional_retention_percent": 92.83461843631112,
+    "conditional_false_exclusion_percent": 7.165381563688882
+  },
+  "workload_thresholds": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "source_files": {
+    "results/risk_conformal/step6_verified/gamma_sweep_201_points.csv": {
+      "sha256": "79d54943aee49d8f7cf874d1b0eadb28a6bbbc88d169bbf31088e50e27ad4a7b",
+      "rows": 201
+    },
+    "results/risk_conformal/step6_verified/table_9a_workload_conditioned_risk_coverage.csv": {
+      "sha256": "2f10150440077d987d4df5e63cae4f5ca51f1baf1311002589cdb433a37765dc",
+      "rows": 5
+    },
+    "results/risk_conformal/step6_verified/table_9b_proposed_vs_mondrian.csv": {
+      "sha256": "51db1debfdb28599a1d309623dda64a0729d7de658edb28473d1a8e32279579c",
+      "rows": 2
+    }
+  },
+  "output_files": [
+    "figures/gamma_sweep_decision_coverage_false_exclusion.png",
+    "figures/gamma_sweep_decision_coverage_false_exclusion.pdf",
+    "figures/gamma_sweep_set_size_search_reduction.png",
+    "figures/gamma_sweep_set_size_search_reduction.pdf",
+    "figures/workload_conditioned_risk_coverage.png",
+    "figures/workload_conditioned_risk_coverage.pdf"
+  ],
+  "interpretation_limit": "These plots are descriptive diagnostics. They do not establish finite-sample conformal coverage guarantees."
+}

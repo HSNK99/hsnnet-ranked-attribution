@@ -1,0 +1,41 @@
+HSNNET FINAL RELEASE AUDIT
+================================================================================
+Updated at                    : 2026-08-25
+Release root                  : ${RELEASE_ROOT}
+Package type                  : lightweight archived-output package
+Checkpoint inventory         : 10 entries
+Checkpoint binaries          : pending GitHub Release asset
+Pair/split/config artifacts   : 50
+Baseline artifacts            : 60
+Multi-seed artifacts          : 37
+Detailed table artifacts      : 16
+
+LOCKED CONDITION CHECK
+--------------------------------------------------------------------------------
+PASS | bossbase_04     | stego_n=7,500
+PASS | bossbase_02     | stego_n=7,500
+PASS | bows2_04        | stego_n=50,000
+PASS | bows2_02        | stego_n=50,000
+
+RISK / CONFORMAL CHECK
+--------------------------------------------------------------------------------
+PASS | BOWS2 0.4 per-image verification
+PASS | Table 9a workload-conditioned analysis
+PASS | 201-point gamma sweep
+PASS | Exact archived two-fold Mondrian reconstruction
+PASS | Table 9b and Fig. 3 outputs
+
+REVIEWER REQUIREMENTS
+--------------------------------------------------------------------------------
+PASS             | R1-9 pair-ID lists and leakage-safe split evidence
+PENDING ASSET    | R1-9 exact retained checkpoint binaries
+PASS             | R1-9 thresholds, statistics, and response signatures
+PASS             | R1-9 per-image predictions and ordered outputs
+PASS             | R1-9 table regeneration and machine-readable outputs
+PASS             | R2-2 exact baseline configurations and outputs
+PASS             | R2-3 risk-coverage and conformal diagnostic
+PASS             | R2-4 lower payload, external source, and multi-seed evidence
+PASS             | R2-5 implementation-level detector specification
+READY EXCEPT ASSET | Editor E-3 public implementation repository package
+
+FINAL STATUS: PARTIAL PASS — MANUSCRIPT OUTPUTS ARE REPRODUCED; PUBLIC VISIBILITY AND THE CHECKPOINT RELEASE ASSET REMAIN PENDING.

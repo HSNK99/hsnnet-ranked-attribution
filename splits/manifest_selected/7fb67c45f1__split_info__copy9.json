@@ -1,0 +1,10 @@
+{
+  "matched_pairs": 10000,
+  "train_pairs": 7000,
+  "val_pairs": 1500,
+  "test_pairs": 1500,
+  "train_samples": 14000,
+  "val_samples": 3000,
+  "test_samples": 3000,
+  "split": "0.7/0.15/0.15"
+}

@@ -1,0 +1,217 @@
+{
+  "note": "Official multi-seed rerun for template_S-UNIWARD_acc_plus. The split is fixed with split_seed=42; only the training seed changes.",
+  "seeds": [
+    41,
+    42,
+    43
+  ],
+  "rows": [
+    {
+      "seed": 41,
+      "split_seed": 42,
+      "split_hash": "c9d779dd5b72bd07",
+      "best_epoch": 53,
+      "best_val_auc": 0.9154877777777779,
+      "total_time_sec": 18104.121290683746,
+      "param_total": 7293009,
+      "param_trainable": 7292609,
+      "param_frozen": 400,
+      "youden_threshold": 0.50927734375,
+      "fpr10_threshold": 0.53125,
+      "test_youden_auc": 0.9196137777777778,
+      "test_youden_acc": 0.8333333333333334,
+      "test_youden_f1": 0.829700272479564,
+      "test_youden_precision": 0.8481894150417827,
+      "test_youden_recall": 0.812,
+      "test_youden_tpr": 0.812,
+      "test_youden_tnr": 0.8546666666666667,
+      "test_youden_fpr": 0.14533333333333334,
+      "test_youden_fnr": 0.188,
+      "test_youden_balanced_acc": 0.8333333333333334,
+      "test_youden_tn": 1282,
+      "test_youden_fp": 218,
+      "test_youden_fn": 282,
+      "test_youden_tp": 1218,
+      "test_fpr10_auc": 0.9196137777777778,
+      "test_fpr10_acc": 0.8256666666666667,
+      "test_fpr10_f1": 0.8105758783049619,
+      "test_fpr10_precision": 0.887390959555908,
+      "test_fpr10_recall": 0.746,
+      "test_fpr10_tpr": 0.746,
+      "test_fpr10_tnr": 0.9053333333333333,
+      "test_fpr10_fpr": 0.09466666666666666,
+      "test_fpr10_fnr": 0.254,
+      "test_fpr10_balanced_acc": 0.8256666666666667,
+      "test_fpr10_tn": 1358,
+      "test_fpr10_fp": 142,
+      "test_fpr10_fn": 381,
+      "test_fpr10_tp": 1119
+    },
+    {
+      "seed": 42,
+      "split_seed": 42,
+      "split_hash": "c9d779dd5b72bd07",
+      "best_epoch": 42,
+      "best_val_auc": 0.9221862222222221,
+      "total_time_sec": 14933.67985534668,
+      "param_total": 7293009,
+      "param_trainable": 7292609,
+      "param_frozen": 400,
+      "youden_threshold": 0.488037109375,
+      "fpr10_threshold": 0.521484375,
+      "test_youden_auc": 0.9203488888888889,
+      "test_youden_acc": 0.821,
+      "test_youden_f1": 0.8272756513348344,
+      "test_youden_precision": 0.7992541951522685,
+      "test_youden_recall": 0.8573333333333333,
+      "test_youden_tpr": 0.8573333333333333,
+      "test_youden_tnr": 0.7846666666666666,
+      "test_youden_fpr": 0.21533333333333332,
+      "test_youden_fnr": 0.14266666666666666,
+      "test_youden_balanced_acc": 0.821,
+      "test_youden_tn": 1177,
+      "test_youden_fp": 323,
+      "test_youden_fn": 214,
+      "test_youden_tp": 1286,
+      "test_fpr10_auc": 0.9203488888888889,
+      "test_fpr10_acc": 0.821,
+      "test_fpr10_f1": 0.8032246244045438,
+      "test_fpr10_precision": 0.8917819365337672,
+      "test_fpr10_recall": 0.7306666666666667,
+      "test_fpr10_tpr": 0.7306666666666667,
+      "test_fpr10_tnr": 0.9113333333333333,
+      "test_fpr10_fpr": 0.08866666666666667,
+      "test_fpr10_fnr": 0.2693333333333333,
+      "test_fpr10_balanced_acc": 0.821,
+      "test_fpr10_tn": 1367,
+      "test_fpr10_fp": 133,
+      "test_fpr10_fn": 404,
+      "test_fpr10_tp": 1096
+    },
+    {
+      "seed": 43,
+      "split_seed": 42,
+      "split_hash": "c9d779dd5b72bd07",
+      "best_epoch": 47,
+      "best_val_auc": 0.9231633333333333,
+      "total_time_sec": 15541.87634730339,
+      "param_total": 7293009,
+      "param_trainable": 7292609,
+      "param_frozen": 400,
+      "youden_threshold": 0.51220703125,
+      "fpr10_threshold": 0.55322265625,
+      "test_youden_auc": 0.9291542222222222,
+      "test_youden_acc": 0.8403333333333334,
+      "test_youden_f1": 0.8371302278136689,
+      "test_youden_precision": 0.8542678695350451,
+      "test_youden_recall": 0.8206666666666667,
+      "test_youden_tpr": 0.8206666666666667,
+      "test_youden_tnr": 0.86,
+      "test_youden_fpr": 0.14,
+      "test_youden_fnr": 0.17933333333333334,
+      "test_youden_balanced_acc": 0.8403333333333334,
+      "test_youden_tn": 1290,
+      "test_youden_fp": 210,
+      "test_youden_fn": 269,
+      "test_youden_tp": 1231,
+      "test_fpr10_auc": 0.9291542222222222,
+      "test_fpr10_acc": 0.8323333333333334,
+      "test_fpr10_f1": 0.816490331995622,
+      "test_fpr10_precision": 0.9016921837228042,
+      "test_fpr10_recall": 0.746,
+      "test_fpr10_tpr": 0.746,
+      "test_fpr10_tnr": 0.9186666666666666,
+      "test_fpr10_fpr": 0.08133333333333333,
+      "test_fpr10_fnr": 0.254,
+      "test_fpr10_balanced_acc": 0.8323333333333334,
+      "test_fpr10_tn": 1378,
+      "test_fpr10_fp": 122,
+      "test_fpr10_fn": 381,
+      "test_fpr10_tp": 1119
+    }
+  ],
+  "youden_mean_std": {
+    "auc": {
+      "mean": 0.9230389629629631,
+      "std": 0.005308709253894668
+    },
+    "acc": {
+      "mean": 0.8315555555555555,
+      "std": 0.009788504217438728
+    },
+    "f1": {
+      "mean": 0.8313687172093558,
+      "std": 0.005134778501218606
+    },
+    "precision": {
+      "mean": 0.8339038265763654,
+      "std": 0.03016097844278249
+    },
+    "recall": {
+      "mean": 0.8300000000000001,
+      "std": 0.024064727530373347
+    },
+    "tpr": {
+      "mean": 0.8300000000000001,
+      "std": 0.024064727530373347
+    },
+    "tnr": {
+      "mean": 0.8331111111111111,
+      "std": 0.04203878279944915
+    },
+    "fpr": {
+      "mean": 0.1668888888888889,
+      "std": 0.04203878279944911
+    },
+    "fnr": {
+      "mean": 0.17,
+      "std": 0.024064727530373396
+    },
+    "balanced_acc": {
+      "mean": 0.8315555555555555,
+      "std": 0.009788504217438728
+    }
+  },
+  "fpr10_mean_std": {
+    "auc": {
+      "mean": 0.9230389629629631,
+      "std": 0.005308709253894668
+    },
+    "acc": {
+      "mean": 0.8263333333333334,
+      "std": 0.0056960024968783956
+    },
+    "f1": {
+      "mean": 0.8100969449017091,
+      "std": 0.006645809384609313
+    },
+    "precision": {
+      "mean": 0.8936216932708265,
+      "std": 0.007325966271190487
+    },
+    "recall": {
+      "mean": 0.7408888888888888,
+      "std": 0.00885270412757425
+    },
+    "tpr": {
+      "mean": 0.7408888888888888,
+      "std": 0.00885270412757425
+    },
+    "tnr": {
+      "mean": 0.9117777777777777,
+      "std": 0.006677768533918529
+    },
+    "fpr": {
+      "mean": 0.08822222222222222,
+      "std": 0.006677768533918544
+    },
+    "fnr": {
+      "mean": 0.2591111111111111,
+      "std": 0.008852704127574247
+    },
+    "balanced_acc": {
+      "mean": 0.8263333333333334,
+      "std": 0.0056960024968783956
+    }
+  }
+}

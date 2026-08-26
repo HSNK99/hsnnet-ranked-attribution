@@ -1,0 +1,297 @@
+{
+  "status": "PASS",
+  "conditions": [
+    {
+      "condition": "bossbase_04",
+      "source_file": "results/core/bossbase_04/final_predictions_stego.csv",
+      "stego_n": 7500,
+      "metrics": {
+        "stego_n": 7500,
+        "top1": 42.81333333333333,
+        "top2": 65.85333333333332,
+        "top3": 82.28,
+        "retention": 90.4,
+        "mean_set": 3.428533333333333,
+        "unknown": 2.04,
+        "search_reduction": 31.429333333333336,
+        "mean_true_rank": 2.1568
+      },
+      "checks": {
+        "top1": {
+          "observed": 42.81333333333333,
+          "expected": 42.813,
+          "difference": 0.000333333333330188,
+          "status": "PASS"
+        },
+        "top2": {
+          "observed": 65.85333333333332,
+          "expected": 65.853,
+          "difference": 0.000333333333330188,
+          "status": "PASS"
+        },
+        "top3": {
+          "observed": 82.28,
+          "expected": 82.28,
+          "difference": 0.0,
+          "status": "PASS"
+        },
+        "retention": {
+          "observed": 90.4,
+          "expected": 90.4,
+          "difference": 0.0,
+          "status": "PASS"
+        },
+        "mean_set": {
+          "observed": 3.428533333333333,
+          "expected": 3.429,
+          "difference": 0.00046666666666661527,
+          "status": "PASS"
+        },
+        "unknown": {
+          "observed": 2.04,
+          "expected": 2.04,
+          "difference": 0.0,
+          "status": "PASS"
+        },
+        "search_reduction": {
+          "observed": 31.429333333333336,
+          "expected": 31.429,
+          "difference": 0.0003333333333372934,
+          "status": "PASS"
+        },
+        "mean_true_rank": {
+          "observed": 2.1568,
+          "expected": 2.157,
+          "difference": 0.00019999999999997797,
+          "status": "PASS"
+        },
+        "stego_n": {
+          "observed": 7500,
+          "expected": 7500,
+          "difference": 0.0,
+          "status": "PASS"
+        }
+      },
+      "status": "PASS"
+    },
+    {
+      "condition": "bossbase_02",
+      "source_file": "results/core/bossbase_02/final_predictions_stego.csv",
+      "stego_n": 7500,
+      "metrics": {
+        "stego_n": 7500,
+        "top1": 30.106666666666666,
+        "top2": 53.61333333333334,
+        "top3": 72.58666666666667,
+        "retention": 77.01333333333334,
+        "mean_set": 3.4444,
+        "unknown": 16.333333333333332,
+        "search_reduction": 31.112000000000002,
+        "mean_true_rank": 2.5484
+      },
+      "checks": {
+        "top1": {
+          "observed": 30.106666666666666,
+          "expected": 30.107,
+          "difference": 0.0003333333333337407,
+          "status": "PASS"
+        },
+        "top2": {
+          "observed": 53.61333333333334,
+          "expected": 53.613,
+          "difference": 0.0003333333333372934,
+          "status": "PASS"
+        },
+        "top3": {
+          "observed": 72.58666666666667,
+          "expected": 72.587,
+          "difference": 0.000333333333330188,
+          "status": "PASS"
+        },
+        "retention": {
+          "observed": 77.01333333333334,
+          "expected": 77.013,
+          "difference": 0.000333333333330188,
+          "status": "PASS"
+        },
+        "mean_set": {
+          "observed": 3.4444,
+          "expected": 3.444,
+          "difference": 0.00039999999999995595,
+          "status": "PASS"
+        },
+        "unknown": {
+          "observed": 16.333333333333332,
+          "expected": 16.333,
+          "difference": 0.0003333333333337407,
+          "status": "PASS"
+        },
+        "search_reduction": {
+          "observed": 31.112000000000002,
+          "expected": 31.112,
+          "difference": 3.552713678800501e-15,
+          "status": "PASS"
+        },
+        "mean_true_rank": {
+          "observed": 2.5484,
+          "expected": 2.548,
+          "difference": 0.00039999999999995595,
+          "status": "PASS"
+        },
+        "stego_n": {
+          "observed": 7500,
+          "expected": 7500,
+          "difference": 0.0,
+          "status": "PASS"
+        }
+      },
+      "status": "PASS"
+    },
+    {
+      "condition": "bows2_04",
+      "source_file": "results/core/bows2_04/external_candidate_predictions.csv.gz",
+      "stego_n": 50000,
+      "metrics": {
+        "stego_n": 50000,
+        "top1": 35.465999999999994,
+        "top2": 59.260000000000005,
+        "top3": 77.50200000000001,
+        "retention": 91.262,
+        "mean_set": 3.75866,
+        "unknown": 1.694,
+        "search_reduction": 24.826800000000002,
+        "mean_true_rank": 2.36632
+      },
+      "checks": {
+        "top1": {
+          "observed": 35.465999999999994,
+          "expected": 35.466,
+          "difference": 7.105427357601002e-15,
+          "status": "PASS"
+        },
+        "top2": {
+          "observed": 59.260000000000005,
+          "expected": 59.26,
+          "difference": 7.105427357601002e-15,
+          "status": "PASS"
+        },
+        "top3": {
+          "observed": 77.50200000000001,
+          "expected": 77.502,
+          "difference": 1.4210854715202004e-14,
+          "status": "PASS"
+        },
+        "retention": {
+          "observed": 91.262,
+          "expected": 91.262,
+          "difference": 0.0,
+          "status": "PASS"
+        },
+        "mean_set": {
+          "observed": 3.75866,
+          "expected": 3.759,
+          "difference": 0.00034000000000000696,
+          "status": "PASS"
+        },
+        "unknown": {
+          "observed": 1.694,
+          "expected": 1.694,
+          "difference": 0.0,
+          "status": "PASS"
+        },
+        "search_reduction": {
+          "observed": 24.826800000000002,
+          "expected": 24.827,
+          "difference": 0.00019999999999953388,
+          "status": "PASS"
+        },
+        "mean_true_rank": {
+          "observed": 2.36632,
+          "expected": 2.366,
+          "difference": 0.00031999999999987594,
+          "status": "PASS"
+        },
+        "stego_n": {
+          "observed": 50000,
+          "expected": 50000,
+          "difference": 0.0,
+          "status": "PASS"
+        }
+      },
+      "status": "PASS"
+    },
+    {
+      "condition": "bows2_02",
+      "source_file": "results/core/bows2_02/external_candidate_predictions.csv.gz",
+      "stego_n": 50000,
+      "metrics": {
+        "stego_n": 50000,
+        "top1": 24.564,
+        "top2": 47.146,
+        "top3": 67.148,
+        "retention": 88.61,
+        "mean_set": 4.18356,
+        "unknown": 6.244000000000001,
+        "search_reduction": 16.3288,
+        "mean_true_rank": 2.75838
+      },
+      "checks": {
+        "top1": {
+          "observed": 24.564,
+          "expected": 24.564,
+          "difference": 0.0,
+          "status": "PASS"
+        },
+        "top2": {
+          "observed": 47.146,
+          "expected": 47.146,
+          "difference": 0.0,
+          "status": "PASS"
+        },
+        "top3": {
+          "observed": 67.148,
+          "expected": 67.148,
+          "difference": 0.0,
+          "status": "PASS"
+        },
+        "retention": {
+          "observed": 88.61,
+          "expected": 88.61,
+          "difference": 0.0,
+          "status": "PASS"
+        },
+        "mean_set": {
+          "observed": 4.18356,
+          "expected": 4.184,
+          "difference": 0.000440000000000218,
+          "status": "PASS"
+        },
+        "unknown": {
+          "observed": 6.244000000000001,
+          "expected": 6.244,
+          "difference": 8.881784197001252e-16,
+          "status": "PASS"
+        },
+        "search_reduction": {
+          "observed": 16.3288,
+          "expected": 16.329,
+          "difference": 0.00019999999999953388,
+          "status": "PASS"
+        },
+        "mean_true_rank": {
+          "observed": 2.75838,
+          "expected": 2.758,
+          "difference": 0.0003799999999998249,
+          "status": "PASS"
+        },
+        "stego_n": {
+          "observed": 50000,
+          "expected": 50000,
+          "difference": 0.0,
+          "status": "PASS"
+        }
+      },
+      "status": "PASS"
+    }
+  ]
+}

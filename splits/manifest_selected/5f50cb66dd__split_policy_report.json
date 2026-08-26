@@ -1,0 +1,9 @@
+{
+  "policy": "pair-level",
+  "leakage_safe": true,
+  "matched_pairs": 10000,
+  "train_pairs": 7000,
+  "val_pairs": 1500,
+  "test_pairs": 1500,
+  "effective_train_samples_per_epoch": 28000
+}

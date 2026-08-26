@@ -1,0 +1,25 @@
+HSNNET STEP 6B — EXACT MONDRIAN RECONSTRUCTION
+============================================================================
+Fold implementation:
+One shared random.Random(42), class-by-class shuffling,
+first half fold 0 and second half fold 1.
+
+Retention                      : 89.978%
+Mean set                       : 3.677/5
+Search reduction               : 26.461%
+Empty                           : 3.472%
+Decision coverage               : 96.528%
+Conditional false-exclusion   : 6.786%
+
+LOCKED VALUE CHECK
+----------------------------------------------------------------------------
+PASS | retention_percent                          | observed=89.978000 | expected=89.978
+PASS | mean_set_size                              | observed=3.676960 | expected=3.677
+PASS | search_reduction_percent                   | observed=26.460800 | expected=26.461
+PASS | empty_percent                              | observed=3.472000 | expected=3.472
+PASS | decision_coverage_percent                  | observed=96.528000 | expected=96.528
+PASS | conditional_false_exclusion_percent        | observed=6.785596 | expected=6.786
+
+FINAL STATUS: PASS — EXACT ARCHIVED MONDRIAN RESULTS REPRODUCED.
+
+Output folder: ${COLLECTED_ROOT}\STEP6_RISK_CONFORMAL_VERIFIED

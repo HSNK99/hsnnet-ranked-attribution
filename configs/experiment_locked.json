@@ -1,0 +1,41 @@
+{
+  "project": "Validation-Calibrated Detector Banks for Ranked Attribution",
+  "candidate_order": [
+    "WOW",
+    "S-UNIWARD",
+    "HILL",
+    "HUGO",
+    "MiPOD"
+  ],
+  "payloads": [
+    "0.4bpp",
+    "0.2bpp"
+  ],
+  "gamma": 0.9,
+  "signature_interval": "Q10-Q90",
+  "image_size": [
+    256,
+    256
+  ],
+  "split": {
+    "policy": "matched pair identity",
+    "train": 0.7,
+    "validation": 0.15,
+    "test": 0.15,
+    "seed": 42
+  },
+  "inference": {
+    "ema": true,
+    "d4_tta": 8,
+    "logit_average_before_sigmoid": true
+  },
+  "architecture": {
+    "total_parameters": 7293009,
+    "trainable_parameters": 7292609,
+    "frozen_frontend_parameters": 400
+  },
+  "datasets_not_redistributed": [
+    "BOSSBase 1.01",
+    "BOWS2"
+  ]
+}

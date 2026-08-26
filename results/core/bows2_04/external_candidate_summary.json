@@ -1,0 +1,75 @@
+{
+  "num_total": 60000,
+  "num_stego": 50000,
+  "num_cover": 10000,
+  "ranked_top1_accuracy": 0.35466,
+  "ranked_top2_accuracy": 0.5926,
+  "ranked_top3_accuracy": 0.77502,
+  "decision_top1_accuracy": 0.34892,
+  "candidate_set_accuracy": 0.91262,
+  "stego_unknown_rate": 0.01694,
+  "stego_single_candidate_rate": 0.06462,
+  "stego_multi_candidate_rate": 0.91844,
+  "stego_mean_candidate_size": 3.75866,
+  "mean_true_rank": 2.36632,
+  "cover_unknown_rate": 0.2734,
+  "cover_false_attribution_rate": 0.7266,
+  "cover_mean_candidate_size": 2.6573,
+  "method": "full_five_way_frozen_external_cross_template_candidate_attribution",
+  "dataset": "BOWS2",
+  "payload": "0.4bpp",
+  "external_true_algorithms": [
+    "WOW",
+    "S-UNIWARD",
+    "HILL",
+    "HUGO",
+    "MiPOD"
+  ],
+  "external_true_class_count": 5,
+  "candidate_universe_count": 5,
+  "evaluation_scope": "complete five-algorithm external attribution",
+  "candidate_universe": [
+    "WOW",
+    "S-UNIWARD",
+    "HILL",
+    "HUGO",
+    "MiPOD"
+  ],
+  "matched_images_per_class": 10000,
+  "q_low": 10,
+  "q_high": 90,
+  "gamma": 0.9,
+  "tta_count": 8,
+  "protocol": "BOSSBase-derived frozen calibration and signatures; complete five-algorithm BOWS2 true-class evaluation; no BOWS2 training, calibration, signature construction, threshold selection, Q-range selection, or gamma tuning.",
+  "paths": {
+    "bows2_root": "${BOWS2_ROOT}",
+    "cover_dir": "${BOWS2_ROOT}/cover",
+    "WOW_stego_dir": "${BOWS2_ROOT}/stego/WOW/0.4bpp/stego",
+    "S-UNIWARD_stego_dir": "${BOWS2_ROOT}/stego/S-UNIWARD/0.4bpp/stego",
+    "HILL_stego_dir": "${BOWS2_ROOT}/stego/HILL/0.4bpp/stego",
+    "HUGO_stego_dir": "${BOWS2_ROOT}/stego/HUGO/0.4bpp/stego",
+    "MiPOD_stego_dir": "${BOWS2_ROOT}/stego/MiPOD/0.4bpp/stego"
+  },
+  "bootstrap_95ci": {
+    "ranked_top1": {
+      "low": 0.350519,
+      "high": 0.358981
+    },
+    "ranked_top3": {
+      "low": 0.7715585,
+      "high": 0.7785810000000001
+    },
+    "candidate_retention": {
+      "low": 0.910099,
+      "high": 0.9151005
+    },
+    "mean_true_rank": {
+      "low": 2.3536965,
+      "high": 2.3776015000000004
+    },
+    "mean_candidate_size": {
+      "low": 3.74714,
+      "high": 3.769483
+    }
+  }
+}

@@ -1,0 +1,3 @@
+﻿method,retention_percent,mean_set_size,search_reduction_percent,empty_percent,decision_coverage_percent,conditional_false_exclusion_percent,calibration
+"Proposed, frozen gamma=0.900",91.262,3.75866,24.826800000000002,1.694,98.30600000000001,7.165381563688882,BOSSBase validation only; frozen on BOWS2
+"Two-fold Mondrian conformal, alpha=0.10",89.97800000000001,3.67696,26.460800000000006,3.472,96.528,6.785595889275655,Cross-fitted BOWS2 labels; Python random.Random(42)

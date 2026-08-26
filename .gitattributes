@@ -1,0 +1,23 @@
+# Normalize every detected text file to LF in Git and worktrees.
+* text=auto eol=lf
+
+# Explicit binary artifacts: never perform EOL conversion.
+*.gz binary
+*.zip binary
+*.pth binary
+*.pt binary
+*.npy binary
+*.npz binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.bmp binary
+*.tif binary
+*.tiff binary
+*.pdf binary
+*.docx binary
+*.xlsx binary
+*.xls binary
+*.pgm binary

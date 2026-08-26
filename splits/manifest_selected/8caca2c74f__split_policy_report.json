@@ -1,0 +1,116 @@
+{
+  "matched_names": 10000,
+  "same_subset_pairs": 5342,
+  "cross_subset_pair_violations": 4658,
+  "violation_rate": 0.4658,
+  "first_20_violations": [
+    {
+      "name": "9481.pgm",
+      "cover_subset": "val",
+      "stego_subset": "train"
+    },
+    {
+      "name": "1538.pgm",
+      "cover_subset": "val",
+      "stego_subset": "train"
+    },
+    {
+      "name": "3778.pgm",
+      "cover_subset": "test",
+      "stego_subset": "train"
+    },
+    {
+      "name": "9982.pgm",
+      "cover_subset": "train",
+      "stego_subset": "val"
+    },
+    {
+      "name": "5516.pgm",
+      "cover_subset": "train",
+      "stego_subset": "val"
+    },
+    {
+      "name": "9651.pgm",
+      "cover_subset": "val",
+      "stego_subset": "train"
+    },
+    {
+      "name": "3994.pgm",
+      "cover_subset": "test",
+      "stego_subset": "train"
+    },
+    {
+      "name": "6638.pgm",
+      "cover_subset": "train",
+      "stego_subset": "test"
+    },
+    {
+      "name": "9694.pgm",
+      "cover_subset": "train",
+      "stego_subset": "val"
+    },
+    {
+      "name": "88.pgm",
+      "cover_subset": "val",
+      "stego_subset": "train"
+    },
+    {
+      "name": "9175.pgm",
+      "cover_subset": "train",
+      "stego_subset": "test"
+    },
+    {
+      "name": "9107.pgm",
+      "cover_subset": "test",
+      "stego_subset": "train"
+    },
+    {
+      "name": "1508.pgm",
+      "cover_subset": "train",
+      "stego_subset": "val"
+    },
+    {
+      "name": "1503.pgm",
+      "cover_subset": "val",
+      "stego_subset": "train"
+    },
+    {
+      "name": "7809.pgm",
+      "cover_subset": "val",
+      "stego_subset": "train"
+    },
+    {
+      "name": "4245.pgm",
+      "cover_subset": "test",
+      "stego_subset": "train"
+    },
+    {
+      "name": "6476.pgm",
+      "cover_subset": "test",
+      "stego_subset": "train"
+    },
+    {
+      "name": "6713.pgm",
+      "cover_subset": "val",
+      "stego_subset": "train"
+    },
+    {
+      "name": "4699.pgm",
+      "cover_subset": "val",
+      "stego_subset": "train"
+    },
+    {
+      "name": "2774.pgm",
+      "cover_subset": "val",
+      "stego_subset": "train"
+    }
+  ],
+  "policy": "image-level",
+  "leakage_safe": false,
+  "matched_pairs": 10000,
+  "train_images": 14000,
+  "val_images": 3000,
+  "test_images": 3000,
+  "effective_train_samples_per_epoch": 14000,
+  "warning": "Diagnostic only: cover/stego counterparts may be assigned to different subsets."
+}

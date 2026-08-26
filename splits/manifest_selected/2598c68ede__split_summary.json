@@ -1,0 +1,13 @@
+{
+  "train_pairs": 7000,
+  "val_pairs": 1500,
+  "test_pairs": 1500,
+  "total_pairs": 10000,
+  "cross_subset_pair_violations": 0,
+  "violations_preview": [],
+  "split_hash": "76faa8fd39b7d765",
+  "split_seed": 41,
+  "split_type": "pair-level",
+  "algorithm": "WOW",
+  "payload": "0.4bpp"
+}

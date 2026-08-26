@@ -1,0 +1,25 @@
+{
+  "protocol": "Exact archived two-fold Mondrian implementation",
+  "sample_order": "Original CSV row order",
+  "class_order": [
+    "WOW",
+    "S-UNIWARD",
+    "HILL",
+    "HUGO",
+    "MiPOD"
+  ],
+  "fold_assignment": "One shared random.Random(42); shuffle indices within each class; first half fold 0, second half fold 1",
+  "alpha": 0.1,
+  "nonconformity": "1 - candidate score",
+  "quantile_rule": "ceil((n + 1) * (1 - alpha))",
+  "metrics": {
+    "retention_percent": 89.97800000000001,
+    "mean_set_size": 3.67696,
+    "search_reduction_percent": 26.460800000000006,
+    "empty_percent": 3.472,
+    "decision_coverage_percent": 96.528,
+    "conditional_retention_percent": 93.21440411072435,
+    "conditional_false_exclusion_percent": 6.785595889275655
+  },
+  "verification_status": "PASS"
+}

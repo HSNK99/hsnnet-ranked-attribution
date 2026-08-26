@@ -1,0 +1,32 @@
+{
+  "WOW": {
+    "validation_cover_n": 1500,
+    "mean": 0.15501594909868496,
+    "sigma_used": 0.23525854410408018,
+    "reconstruction_max_abs_error": 5.551115123125783e-16
+  },
+  "S-UNIWARD": {
+    "validation_cover_n": 1500,
+    "mean": 0.21228760170994374,
+    "sigma_used": 0.2546473446439014,
+    "reconstruction_max_abs_error": 7.771561172376096e-16
+  },
+  "HILL": {
+    "validation_cover_n": 1500,
+    "mean": 0.23174537013558663,
+    "sigma_used": 0.26939570261845996,
+    "reconstruction_max_abs_error": 2.220446049250313e-16
+  },
+  "HUGO": {
+    "validation_cover_n": 1500,
+    "mean": 0.19434532178755046,
+    "sigma_used": 0.2683682508500511,
+    "reconstruction_max_abs_error": 2.220446049250313e-16
+  },
+  "MiPOD": {
+    "validation_cover_n": 1500,
+    "mean": 0.254612646466756,
+    "sigma_used": 0.28760685691847365,
+    "reconstruction_max_abs_error": 3.3306690738754696e-16
+  }
+}

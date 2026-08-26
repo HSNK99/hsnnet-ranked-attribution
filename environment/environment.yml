@@ -1,0 +1,15 @@
+name: hsnnet-repro
+channels:
+  - pytorch
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+  - matplotlib
+  - scikit-learn
+  - pillow
+  - openpyxl
+  - jupyter
+  - pytorch
+  - cpuonly

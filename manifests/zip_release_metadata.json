@@ -1,0 +1,13 @@
+{
+  "package": "hsnnet-ranked-attribution",
+  "manuscript_benchmark": "BOSSBase 1.01, 0.4 bpp",
+  "manuscript_top1_percent": 42.81333333333333,
+  "manuscript_top2_percent": 65.85333333333334,
+  "manuscript_top3_percent": 82.28,
+  "candidate_retention_percent": 90.4,
+  "mean_candidate_set_size": 3.428533333333333,
+  "public_repository_url": "https://github.com/HSNK99/hsnnet-ranked-attribution",
+  "checkpoint_release_status": "pending GitHub Release v1.0.0",
+  "checksummed_static_files": 323,
+  "checksummed_static_bytes": 246257929
+}

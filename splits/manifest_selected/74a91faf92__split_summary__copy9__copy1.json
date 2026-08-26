@@ -1,0 +1,51 @@
+{
+  "algorithm": "WOW",
+  "payload": "0.4bpp",
+  "bossbase": {
+    "cover_dir": "${BOSSBASE_ROOT}/cover",
+    "stego_dir": "${BOSSBASE_ROOT}/stego/WOW/0.4bpp/stego",
+    "matched_pairs": 10000,
+    "train_pairs": 7000,
+    "val_pairs": 1500,
+    "test_pairs": 1500,
+    "verification": {
+      "checked_pairs": 200,
+      "identical_pairs": 0,
+      "identical_ratio": 0.0,
+      "changed_pixel_ratio_mean": 0.090391845703125,
+      "changed_pixel_ratio_min": 0.069580078125,
+      "changed_pixel_ratio_max": 0.127288818359375,
+      "max_absolute_diff": 1
+    }
+  },
+  "bows2": {
+    "cover_dir": "${BOWS2_ROOT}/cover",
+    "stego_dir": "${BOWS2_ROOT}/stego/WOW/0.4bpp/stego",
+    "matched_pairs": 10000,
+    "train_pairs": 7000,
+    "val_pairs": 1500,
+    "test_pairs": 1500,
+    "verification": {
+      "checked_pairs": 200,
+      "identical_pairs": 0,
+      "identical_ratio": 0.0,
+      "changed_pixel_ratio_mean": 0.0947783660888672,
+      "changed_pixel_ratio_min": 0.070770263671875,
+      "changed_pixel_ratio_max": 0.135498046875,
+      "max_absolute_diff": 1
+    }
+  },
+  "manifests": {
+    "boss_train": "${HSNNET_LEGACY_ROOT}/H33/Spatial_DataBank_v1/manifests/WOW_0.4bpp/boss_train.csv",
+    "boss_val": "${HSNNET_LEGACY_ROOT}/H33/Spatial_DataBank_v1/manifests/WOW_0.4bpp/boss_val.csv",
+    "boss_test": "${HSNNET_LEGACY_ROOT}/H33/Spatial_DataBank_v1/manifests/WOW_0.4bpp/boss_test.csv",
+    "bows_train": "${HSNNET_LEGACY_ROOT}/H33/Spatial_DataBank_v1/manifests/WOW_0.4bpp/bows_train.csv",
+    "bows_val": "${HSNNET_LEGACY_ROOT}/H33/Spatial_DataBank_v1/manifests/WOW_0.4bpp/bows_val.csv",
+    "bows_test": "${HSNNET_LEGACY_ROOT}/H33/Spatial_DataBank_v1/manifests/WOW_0.4bpp/bows_test.csv",
+    "zero_shot_external_bows_full": "${HSNNET_LEGACY_ROOT}/H33/Spatial_DataBank_v1/manifests/WOW_0.4bpp/zero_shot_external_bows_full.csv",
+    "multisource_train": "${HSNNET_LEGACY_ROOT}/H33/Spatial_DataBank_v1/manifests/WOW_0.4bpp/multisource_train.csv",
+    "multisource_val": "${HSNNET_LEGACY_ROOT}/H33/Spatial_DataBank_v1/manifests/WOW_0.4bpp/multisource_val.csv",
+    "multisource_test_bows": "${HSNNET_LEGACY_ROOT}/H33/Spatial_DataBank_v1/manifests/WOW_0.4bpp/multisource_test_bows.csv",
+    "multisource_test_boss": "${HSNNET_LEGACY_ROOT}/H33/Spatial_DataBank_v1/manifests/WOW_0.4bpp/multisource_test_boss.csv"
+  }
+}

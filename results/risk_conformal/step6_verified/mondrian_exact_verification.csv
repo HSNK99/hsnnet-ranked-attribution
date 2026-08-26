@@ -1,0 +1,7 @@
+﻿metric,observed,expected,difference,status
+retention_percent,89.97800000000001,89.978,1.4210854715202004e-14,PASS
+mean_set_size,3.67696,3.677,-4.000000000026205e-05,PASS
+search_reduction_percent,26.460800000000006,26.461,-0.00019999999999242846,PASS
+empty_percent,3.472,3.472,0.0,PASS
+decision_coverage_percent,96.528,96.528,0.0,PASS
+conditional_false_exclusion_percent,6.785595889275655,6.786,-0.00040411072434487494,PASS

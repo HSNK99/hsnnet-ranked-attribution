@@ -1,0 +1,43 @@
+HSNNET STEP 5 — BOWS2 0.4 LOCKED VERIFICATION
+========================================================================
+Source rows                 : 60,000
+Stego rows                  : 50,000
+Cover rows                  : 10,000
+
+Top-1                       : 35.466%
+Top-2                       : 59.260%
+Top-3                       : 77.502%
+Mean true rank              : 2.366
+
+Candidate retention         : 91.262%
+Mean candidate-set size     : 3.759
+Stego unknown               : 1.694%
+Decision coverage           : 98.306%
+Conditional false-exclusion : 7.165%
+Search-space reduction      : 24.827%
+
+Cover rejection             : 27.340%
+Cover false attribution    : 72.660%
+
+Retained stego count        : 45,631
+Unknown stego count         : 847
+Non-empty stego count       : 49,153
+False exclusion, non-empty : 3,522
+Rejected cover count        : 2,734
+
+LOCKED VALUE CHECK
+------------------------------------------------------------------------
+PASS | top1_percent                   | observed=35.466000 | expected=35.466
+PASS | top2_percent                   | observed=59.260000 | expected=59.260
+PASS | top3_percent                   | observed=77.502000 | expected=77.502
+PASS | retention_percent              | observed=91.262000 | expected=91.262
+PASS | mean_set_size                  | observed=3.758660 | expected=3.759
+PASS | unknown_percent                | observed=1.694000 | expected=1.694
+PASS | cover_rejection_percent        | observed=27.340000 | expected=27.340
+PASS | search_reduction_percent       | observed=24.826800 | expected=24.827
+
+FINAL STATUS: PASS — FILE MATCHES THE LOCKED MANUSCRIPT RESULTS.
+
+Stego output : ${COLLECTED_ROOT}\STEP5_BOWS2_04_VERIFIED\bows2_04_per_image_stego_predictions.csv
+Cover output : ${COLLECTED_ROOT}\STEP5_BOWS2_04_VERIFIED\bows2_04_per_image_cover_predictions.csv
+Summary      : ${COLLECTED_ROOT}\STEP5_BOWS2_04_VERIFIED\bows2_04_locked_summary.json

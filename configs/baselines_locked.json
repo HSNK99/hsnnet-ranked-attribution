@@ -1,0 +1,38 @@
+{
+  "maximum_response": {
+    "input": "five raw detector response probabilities",
+    "preprocessing": "none",
+    "decision": "largest response",
+    "tie_order": [
+      "WOW",
+      "S-UNIWARD",
+      "HILL",
+      "HUGO",
+      "MiPOD"
+    ]
+  },
+  "logistic_regression": {
+    "input": "five raw detector response probabilities",
+    "preprocessing": "StandardScaler fitted on fitting split only",
+    "solver": "lbfgs",
+    "penalty": "L2",
+    "C": 1.0,
+    "class_weight": "balanced",
+    "max_iter": 5000,
+    "random_state": 42,
+    "hyperparameter_search": "none"
+  },
+  "euclidean_prototype": {
+    "ETA_Z_EVIDENCE": 1.0,
+    "DELTA_DISTANCE": 0.25,
+    "RANGE_MIN_G": 0.7,
+    "BETA_RANGE_DISTANCE": 0.2
+  },
+  "mahalanobis_cosine": {
+    "ETA_Z_EVIDENCE": 1.0,
+    "MAHAL_RADIUS_Q": 90,
+    "DELTA_MAHAL_NORM": 0.15,
+    "DELTA_COSINE": 0.03,
+    "COV_REG_LAMBDA": 0.001
+  }
+}

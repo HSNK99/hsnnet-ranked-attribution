@@ -1,0 +1,28 @@
+{
+  "method": "multiclass_logistic_regression_forced_closed_set",
+  "input": "five-dimensional detector-bank response vector",
+  "training_matrix": "Downloads\\validation_response_matrix.xls",
+  "test_matrix": "Downloads\\test_response_matrix.xls",
+  "feature_columns": [
+    "p_WOW",
+    "p_S-UNIWARD",
+    "p_HILL",
+    "p_HUGO",
+    "p_MiPOD"
+  ],
+  "label_column": "true_algo",
+  "split_policy": "train on archived validation_response_matrix; test on archived held-out test_response_matrix",
+  "preprocessing": "StandardScaler fitted on validation response vectors only",
+  "model": "sklearn.linear_model.LogisticRegression",
+  "solver": "lbfgs",
+  "penalty": "l2",
+  "C": 1.0,
+  "class_weight": "balanced",
+  "max_iter": 5000,
+  "random_state": 42,
+  "hyperparameter_search": "none; fixed reproducibility configuration",
+  "tie_breaking": "deterministic scikit-learn class order",
+  "contains_new_image_inference": false,
+  "contains_new_detector_training": false,
+  "recomputed_from_saved_response_matrices": true
+}

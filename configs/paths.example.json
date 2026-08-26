@@ -1,0 +1,7 @@
+{
+  "project_root": "${PROJECT_ROOT}",
+  "bossbase_root": "${BOSSBASE_ROOT}",
+  "bows2_root": "${BOWS2_ROOT}",
+  "checkpoint_root": "${CHECKPOINT_ROOT}",
+  "output_root": "./outputs"
+}

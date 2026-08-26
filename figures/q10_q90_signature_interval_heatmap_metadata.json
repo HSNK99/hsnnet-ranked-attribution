@@ -1,0 +1,52 @@
+{
+  "algorithm_order": [
+    "WOW",
+    "S-UNIWARD",
+    "HILL",
+    "HUGO",
+    "MiPOD"
+  ],
+  "cell_annotation": "Exact [Q10, Q90] interval, three decimals",
+  "color_encoding": "Arithmetic midpoint of Q10 and Q90",
+  "dataset": "BOSSBase 1.01",
+  "detector_axis_column": "template_dimension",
+  "diagonal_encoding": "Black box denotes a matched algorithm-detector pair",
+  "diagonal_intervals": {
+    "HILL": {
+      "q10": 0.865907,
+      "q90": 2.819321
+    },
+    "HUGO": {
+      "q10": 1.082785,
+      "q90": 2.974571
+    },
+    "MiPOD": {
+      "q10": 0.793971,
+      "q90": 2.564312
+    },
+    "S-UNIWARD": {
+      "q10": 0.887013,
+      "q90": 3.067368
+    },
+    "WOW": {
+      "q10": 1.405922,
+      "q90": 3.558374
+    }
+  },
+  "figure_name": "Q10-Q90 validation response signature interval heatmap",
+  "lower_bound_column": "q10",
+  "matrix_shape": [
+    5,
+    5
+  ],
+  "payload_bpp": 0.4,
+  "pdf_file": "figures/q10_q90_signature_interval_heatmap.pdf",
+  "png_file": "figures/q10_q90_signature_interval_heatmap.png",
+  "q_high_used": 90,
+  "q_low_used": 10,
+  "source_file": "results/core/bossbase_04/final_cross_template_signature_table.csv",
+  "source_sha256": "5c18092787a37b9e4d112751c1e988e3c41370d32b7246279580e259dd8eaf5a",
+  "target_axis_column": "target_algo",
+  "upper_bound_column": "q90",
+  "validated_pairs": 25
+}

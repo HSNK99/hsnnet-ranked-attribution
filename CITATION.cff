@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "Please cite the associated manuscript when using this package."
+title: "HSNNET Ranked Attribution Reproducibility Package"
+type: software
+authors:
+  - family-names: "Al-Saeedi"
+    given-names: "Hasan Karam"
+  - family-names: "Hashim"
+    given-names: "Asaad Noori"
+repository-code: "https://github.com/HSNK99/hsnnet-ranked-attribution"
+license: MIT
