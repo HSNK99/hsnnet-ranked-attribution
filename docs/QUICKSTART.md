@@ -19,13 +19,13 @@ FINAL STATUS: PASS — ALL AVAILABLE REPOSITORY TESTS PASSED.
 
 ## Level 2 — Checkpoint integrity
 
-After `HSNNET_CHECKPOINTS_V1.zip` is attached to GitHub Release `v1.0.0`, download it, extract its `checkpoints/` directory at the repository root, and run:
+Download `HSNNET_CHECKPOINTS_V1.zip` from [GitHub Release `v1.0.0`](https://github.com/HSNK99/hsnnet-ranked-attribution/releases/tag/v1.0.0), verify SHA-256 `037723ee08b31c344ff0d63011fc05d4adad807a6ce283c5add262a6122a68f7`, extract its `checkpoints/` directory at the repository root, and run:
 
 ```bat
 python scripts\verify_checkpoints.py
 ```
 
-The lightweight repository contains the locked checkpoint inventory and SHA-256 hashes, but checkpoint verification remains pending until the Release asset is publicly attached.
+The release archive passed CRC validation, and all ten checkpoints passed the locked SHA-256 inventory and strict-load audit.
 
 ## Level 3 — Full inference
 

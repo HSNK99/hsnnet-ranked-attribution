@@ -19,13 +19,13 @@ The lightweight repository regenerates the four manuscript conditions, Table 9a,
 
 ## Checkpoint verification
 
-The ten retained checkpoint files are not embedded in the lightweight repository. Their filenames, sizes, and SHA-256 hashes are fixed in `manifests/checkpoint_inventory.csv`. After the checkpoint asset is attached to GitHub Release `v1.0.0`, download `HSNNET_CHECKPOINTS_V1.zip`, extract `checkpoints/` at the repository root, and run:
+The ten retained checkpoint files are distributed separately through [GitHub Release `v1.0.0`](https://github.com/HSNK99/hsnnet-ranked-attribution/releases/tag/v1.0.0). Their filenames, sizes, and SHA-256 hashes are fixed in `manifests/checkpoint_inventory.csv`. Download `HSNNET_CHECKPOINTS_V1.zip` (SHA-256: `037723ee08b31c344ff0d63011fc05d4adad807a6ce283c5add262a6122a68f7`), extract `checkpoints/` at the repository root, and run:
 
 ```bash
 python scripts/verify_checkpoints.py
 ```
 
-Until that Release asset is publicly attached, checkpoint-level reproduction remains pending; archived-output reproduction is available now.
+The archive passed CRC validation, and all ten checkpoints passed inventory-hash verification and strict model loading. Archived-output reproduction remains available without downloading the checkpoints.
 
 ## Locked operating point
 

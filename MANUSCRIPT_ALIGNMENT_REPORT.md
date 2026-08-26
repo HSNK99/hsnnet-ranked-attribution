@@ -23,6 +23,6 @@ This package is aligned with the manuscript benchmark reported for BOSSBase 1.01
 
 The later BOSSBase 0.4-bpp rerun that produced Top-1 = 43.7467% is retained under `results/archive/bossbase_04_later_rerun/` for provenance only. It is not used by the manuscript reproduction path.
 
-## Remaining release dependency
+## Checkpoint release verification
 
-The lightweight repository contains the ten-file checkpoint inventory and SHA-256 hashes. The checkpoint binaries remain pending as the GitHub Release `v1.0.0` asset. The repository must not be described as checkpoint-complete until that asset is publicly attached and `scripts/verify_checkpoints.py` passes.
+The ten retained checkpoints are distributed as `HSNNET_CHECKPOINTS_V1.zip` through [GitHub Release `v1.0.0`](https://github.com/HSNK99/hsnnet-ranked-attribution/releases/tag/v1.0.0). The archive passed CRC validation (SHA-256 `037723ee08b31c344ff0d63011fc05d4adad807a6ce283c5add262a6122a68f7`), and `scripts/verify_checkpoints.py` verified the inventory hashes, architecture, parameter counts, and strict loading for all ten conditions (10/10 pass).

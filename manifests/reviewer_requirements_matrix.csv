@@ -1,6 +1,6 @@
 ﻿requirement,status,evidence
 R1-9 pair-ID lists and leakage-safe split evidence,PASS,splits/ and run-config artifacts
-R1-9 exact retained checkpoints,PENDING RELEASE ASSET,manifests/checkpoint_inventory.csv is present; checkpoint binaries must be attached to GitHub Release v1.0.0
+R1-9 exact retained checkpoints,PASS,GitHub Release v1.0.0 asset; inventory SHA-256 and strict loading verified 10/10
 "R1-9 thresholds, statistics, and response signatures",PASS,results/core/* calibration/signature artifacts
 R1-9 per-image predictions and ordered outputs,PASS,results/core/* and results/risk_conformal/*
 R1-9 table regeneration and machine-readable outputs,PASS,results/supplementary_tables/ and verified Step-5/Step-6 outputs
@@ -8,4 +8,4 @@ R2-2 exact baseline configurations and outputs,PASS,configs/baselines_locked.jso
 R2-3 risk-coverage and conformal diagnostic,PASS,results/risk_conformal/step6_verified/
 "R2-4 lower payload, external source, and multi-seed evidence",PASS,results/core/ and results/multiseed/
 R2-5 implementation-level detector specification,PASS,src/model_definition_hsnnet_locked.py and manifests/checkpoint_inventory.csv
-Editor E-3 public implementation repository package,READY EXCEPT CHECKPOINT ASSET,repository content is aligned with the manuscript; public visibility and the checkpoint Release asset remain pending
+Editor E-3 public implementation repository package,PASS,permanent repository URL and GitHub Release v1.0.0 checkpoint asset

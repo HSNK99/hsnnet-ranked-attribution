@@ -7,7 +7,13 @@
   "candidate_retention_percent": 90.4,
   "mean_candidate_set_size": 3.428533333333333,
   "public_repository_url": "https://github.com/HSNK99/hsnnet-ranked-attribution",
-  "checkpoint_release_status": "pending GitHub Release v1.0.0",
+  "checkpoint_release_status": "complete: GitHub Release v1.0.0",
   "checksummed_static_files": 323,
-  "checksummed_static_bytes": 246257929
+  "checksummed_static_bytes": 246258670,
+  "checkpoint_release_url": "https://github.com/HSNK99/hsnnet-ranked-attribution/releases/tag/v1.0.0",
+  "checkpoint_asset_name": "HSNNET_CHECKPOINTS_V1.zip",
+  "checkpoint_asset_size_bytes": 292573912,
+  "checkpoint_asset_sha256": "037723ee08b31c344ff0d63011fc05d4adad807a6ce283c5add262a6122a68f7",
+  "checkpoint_conditions_verified": 10,
+  "checkpoint_strict_load_passed": 10
 }
